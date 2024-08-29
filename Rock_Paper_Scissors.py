@@ -62,7 +62,7 @@ def determine_winner(choice, random_selection):
         winner1 = True 
     elif choice == "Scissors" and random_selection == "Paper":
         winner1 = True 
-    if choice == "Rock" and random_selection == "Paper":
+    elif choice == "Rock" and random_selection == "Paper":
         winner1 = True 
     elif choice == "Scissors"  and random_selection == "Rock":
         winner2 = True 
